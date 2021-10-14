@@ -7,7 +7,7 @@ On a DM process, EEFR can be used as feature selection pre-process, before class
 
 ## Package installation from GitHub:
 library("devtools")<br/>
-install_github(https://github.com/matpato/EEFR-parallel.git', INSTALL_opts=c("--no-multiarch"))
+install_github('https://github.com/matpato/EEFR-parallel.git', INSTALL_opts=c("--no-multiarch"))
 
 
 ## Package usage:
