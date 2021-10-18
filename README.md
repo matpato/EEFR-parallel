@@ -26,5 +26,4 @@ The R package includes a demo example, executable by: ***example("ensemble.featu
 The example uses an artificial dataset included in R package.
 
 Package pEEFRanking is accessible from https://github.com/matpato/EEFR-parallel.git repository <br/>
-
 The original package EEFRanking is accessible from https://github.com/matpato/EEFR.git repository
