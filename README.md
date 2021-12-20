@@ -12,11 +12,11 @@ install_github('https://github.com/matpato/EEFR-parallel.git', INSTALL_opts=c("-
 
 ## Package usage:
 library(pEEFRanking)<br/>
-features <- ensemble.feature.ranking(dataset)<br/>
+features <- ensemble.features.ranking(dataset)<br/>
 dataset <- dataset[,c(features, 'class')]
 
 ## Package documentation:
-The feature selection is executable by ***ensemble.feature.ranking(dataset, ...)***. 
+The feature selection is executable by ***ensemble.features.ranking(dataset, ...)***. 
 A list of optional parameters is available, as specified on the documentation. 
 As output, it returns a list with the name of the features sorted in inverse order of relevance. 
 The returned list can include all the sorted features or a subset of the first most relevant ones.

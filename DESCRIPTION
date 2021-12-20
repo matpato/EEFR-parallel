@@ -13,4 +13,4 @@ Date: 2021-1-4
 Imports: FSelector,
          future,
          future.apply
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2

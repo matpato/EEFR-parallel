@@ -15,7 +15,7 @@ calculateWeightsSampling<-function(dataset, RandomRows, functionToUse, features)
     fnames=colnames(dataset)
     plan("multisession")
     #seed <- .Random.seed
-    weights <- future_apply(RandomRows, 1, function(x){subsetAllData <- dataset[x, features]; as.matrix(functionToUse(class~., subsetAllData))})
+    weights <- future_apply(RandomRows, 1, function(x){subsetAllData <- dataset[x, features]; as.matrix(functionToUse(class~., subsetAllData))}, future.seed = TRUE)
     #.Random.seed <- seed
     plan("sequential")
     weightsIG <- as.data.frame(t(weights))
